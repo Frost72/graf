@@ -20,5 +20,11 @@ namespace Графы
         {
             InitializeComponent();
         }
+
+        private void A_Click(object sender, RoutedEventArgs e)
+        {
+            AlgoritmA algoritmA = new AlgoritmA();
+            algoritmA.Show();
+        }
     }
 }

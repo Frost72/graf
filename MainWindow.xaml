@@ -16,6 +16,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Button x:Name="A" Content="Алгоритм A" Height="30" Width="100" Grid.Row="0" Click="A_Click"/>
+        <Button x:Name="Li" Content="Алгоритм ЛИ" Width="100" Height="30" Grid.Row="1" Click="Li_Click"/>
 
     </Grid>
 </Window>

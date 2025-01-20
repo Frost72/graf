@@ -26,5 +26,11 @@ namespace Графы
             AlgoritmA algoritmA = new AlgoritmA();
             algoritmA.Show();
         }
+
+        private void Li_Click(object sender, RoutedEventArgs e)
+        {
+            LeeAlgor leeAlgor = new LeeAlgor();
+            leeAlgor.Show();
+        }
     }
 }
